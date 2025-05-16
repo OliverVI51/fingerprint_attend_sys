@@ -8,6 +8,7 @@ This project is an **automated attendance system** using an **Arduino microcontr
 
 - ✅ Fingerprint registration and verification  
 - 🕒 Real-time attendance logging  
+- 🔊 Voice feedback using DFPlayer Mini and speaker  
 - 💾 Stores attendance data to EEPROM/SD card (based on configuration)  
 - 📟 LCD/serial monitor display for status and feedback  
 - 🔔 Optional buzzer or LED indicators for user interaction  
@@ -21,9 +22,11 @@ This project is an **automated attendance system** using an **Arduino microcontr
   - Arduino Uno/Nano  
   - R305/GT511C3 Fingerprint Sensor  
   - 16x2 LCD (I2C)  
+  - DFPlayer Mini MP3 Module  
+  - Speaker  
   - RTC Module *(optional)*  
-  - Buzzer  
-  - SD Card Module *(optional)*
+  - Buzzer
+  - LED
 
 - **Software:**  
   - Arduino IDE  
