@@ -36,11 +36,6 @@ This project is an **automated attendance system** using an **Arduino microcontr
 
 ## 📁 Project Structure
 
-├── /src # Main codebase and Arduino sketches
-├── /docs # Circuit diagrams and setup instructions
-├── /images # Hardware setup photos
-└── README.md # Project description
-
 
 ---
 
