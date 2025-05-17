@@ -14,7 +14,6 @@ const uint8_t PIN_REGISTER_BACK = 11;
 const uint8_t PIN_DELETE_OK = 10;
 const uint8_t PIN_FORWARD = 9;
 const uint8_t PIN_REVERSE = 8;
-const uint8_t PIN_MATCH = 12;
 const uint8_t PIN_INDICATOR = 7;
 const uint8_t PIN_BUZZER = 6;
 
@@ -33,7 +32,6 @@ void setup() {
   pinMode(PIN_FORWARD, INPUT_PULLUP);
   pinMode(PIN_REVERSE, INPUT_PULLUP);
   pinMode(PIN_DELETE_OK, INPUT_PULLUP);
-  pinMode(PIN_MATCH, INPUT_PULLUP);
   pinMode(PIN_BUZZER, OUTPUT);
   pinMode(PIN_INDICATOR, OUTPUT);
   digitalWrite(PIN_BUZZER, LOW);
@@ -64,7 +62,7 @@ void setup() {
     rtc.adjust(DateTime(2018, 6, 7, 11, 0, 0));
   }
 
-  lcdPrint(F("Press Match to"), F("Start System"), 3000);
+  lcdPrint(F("Welcome"), F("Place Finger"), 3000);
 
   for (int i = 0; i < MAX_RECORDS; i++) {
     users[i] = EEPROM.read(EEPROM_USER_START + i);
