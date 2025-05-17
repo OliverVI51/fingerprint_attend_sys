@@ -36,6 +36,11 @@ This project is an **automated attendance system** using an **Arduino microcontr
 
 ## 📁 Project Structure
 
+fingerprint-attendance-system/                                                                                                                      
+├── images/ # Contains wiring diagram                                                                                     
+├── src/ # Arduino source code                                                                                                                                     
+├── LICENSE # GPL-3.0 License                                                                                                                                                    
+└── README.md                                                                                                                                      
 
 ---
 
@@ -46,12 +51,6 @@ This project is an **automated attendance system** using an **Arduino microcontr
 3. Upload the code to your Arduino board
 4. Use the serial monitor or LCD interface to enroll and verify fingerprints
 5. Attendance logs will be shown or stored (based on your setup)
-
----
-
-## 📷 Preview
-
-> *(Insert images or GIFs of your system in action here)*
 
 ---
 
