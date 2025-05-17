@@ -49,12 +49,6 @@ This project is an **automated attendance system** using an **Arduino microcontr
 
 ---
 
-## 📷 Preview
-
-> *(Insert images or GIFs of your system in action here)*
-
----
-
 ## 🔒 Security Considerations
 
 - Fingerprints are stored with unique IDs
