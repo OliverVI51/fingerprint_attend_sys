@@ -1,0 +1,19 @@
++-----------------------+            +----------------------+
+|      Arduino Uno      |            |      Components       |
++-----------------------+            +----------------------+
+
+[Pin  2]  ----------------->  Fingerprint Sensor TX  
+[Pin  3]  <-----------------  Fingerprint Sensor RX  
+
+[Pin  6]  ----------------->  Buzzer  
+[Pin  7]  ----------------->  Indicator LED  
+[Pin  8]  ----------------->  Reverse Button  
+[Pin  9]  ----------------->  Forward Button  
+[Pin 10]  ----------------->  Delete/OK Button  
+[Pin 11]  ----------------->  Register/Back Button  
+
+[I2C SDA] (A4) ----------->  LCD SDA, RTC SDA  
+[I2C SCL] (A5) ----------->  LCD SCL, RTC SCL 
+
+[VCC] -------------------->  LCD, Fingerprint Sensor, RTC  
+[GND] -------------------->  All Components  
