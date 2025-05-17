@@ -37,10 +37,8 @@ This project is an **automated attendance system** using an **Arduino microcontr
 ## 📁 Project Structure
 
 fingerprint-attendance-system/                                                                                                                      
-├── images/ # Contains wiring diagram and other visuals                                                                                                                   
-│ └── wiring_diagram.png                                                                                                      
+├── images/ # Contains wiring diagram                                                                                     
 ├── src/ # Arduino source code                                                                                                                                     
-│ └── Fingerprint_attend_sys_optmized.ino                                                                                             
 ├── LICENSE # GPL-3.0 License                                                                                                                                                    
 └── README.md                                                                                                                                      
 
